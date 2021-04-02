@@ -1,6 +1,6 @@
 body {
-  background-color: #000911;
-  color: #97d8eb;
+  background-color: #110500;
+  color: #eba897;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,9 +10,9 @@ body {
 }
 
 code {
-  color: #000911;
+  color: #110500;
   font-weight: bold;
-  background-color: #97d8eb;
+  background-color: #eba897;
   padding: 0.3rem;
   border-radius: 3px;
 }
