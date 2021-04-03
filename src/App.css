@@ -16,22 +16,25 @@ code {
   border-radius: 3px;
 }
 
-.container {
+.rsw-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   height: 100vh;
 }
 
-.item {
+.rsw-item {
   text-align: center;
+  padding: 1rem;
 }
 
-.item > img {
+.rsw-item > img {
   max-width: 80vw;
+  margin: 0 auto;
 }
 
-.container::after {
+.rsw-container::after {
   content: '';
   height: 15vh;
 }
