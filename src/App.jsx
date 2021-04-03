@@ -1,10 +1,17 @@
+import React from 'react';
+
+import logo from './logo.png';
 import './App.css';
 
 function App() {
   return (
     <main className="container">
-      <div className="item">
-        <h1>Hello world !</h1>
+      <div
+        className="item"
+        style={{
+          paddingBottom: '2rem',
+        }}>
+        <img src={logo} width="20%" alt="WCS logo" />
       </div>
       <div className="item">
         <p>Welcome to your fresh, lightweight, React App ! &#127752;</p>
