@@ -26,5 +26,7 @@ module.exports = {
   rules: {
     'prettier/prettier': ['error', {}, { usePrettierrc: true }], // Use our .prettierrc file as source
     'react/function-component-definition': [2, { namedComponents: 'function-declaration' }],
+    'no-console': 1,
+    'react/jsx-filename-extension': 'error',
   },
 };
