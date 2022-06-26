@@ -20,4 +20,4 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - run: yarn install
       - run: yarn lint
-      - run: yarn build:develop
+      - run: yarn build

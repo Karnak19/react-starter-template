@@ -1,10 +1,12 @@
-import logo from './logo.png';
+import react from './react.png';
+import vite from './vite.svg';
 
 function App() {
   return (
     <main className="rsw-container">
       <div className="rsw-item">
-        <img src={logo} alt="WCS logo" />
+        <img src={vite} alt="WCS logo" />
+        <img src={react} alt="WCS logo" />
       </div>
       <div className="rsw-item">
         <p>Welcome to your fresh, lightweight, React App ! &#127752;</p>
